@@ -9,7 +9,8 @@ exports.fees = (req,res,next) => {
     }
 
 
-    const splitString = FeeConfigurationSpec.split("\\n");
+    var splitString = FeeConfigurationSpec.split("\\n");
+    console.log(splitString);
     //TODO: Validate FeeConfigurationSpec
 
 }
